@@ -3,8 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "No build step needed for static site"
+      - echo "Build step: static site"
 
 artifacts:
   files:
     - index.html
+    - style.css
